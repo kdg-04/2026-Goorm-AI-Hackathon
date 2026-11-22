@@ -9,7 +9,9 @@
 > 2026 구름(goorm) AI 해커톤 **최우수상 수상작**.
 
 <p align="center">
-  <a href="docs/service-spec.pdf"><b>서비스 명세서</b></a>
+  <a href="my-code/"><b>내가 쓴 코드</b></a>
+  &nbsp;·&nbsp;
+  <a href="docs/service-spec.pdf">서비스 명세서</a>
   &nbsp;·&nbsp;
   <a href="docs/team-roles.pdf">역할분담 가이드</a>
   &nbsp;·&nbsp;
@@ -30,10 +32,10 @@
 
 > ### ⚠️ 이 저장소에 대하여
 >
-> 이 저장소는 **기획 문서와 개인 기여 기록**이다. 소스 코드는 포함하지 않는다.
+> 이 저장소는 **기획 문서와 개인 기여 기록**이다.
 >
-> 5인 팀 프로젝트이며 코드는 팀 조직 저장소에 있다.
-> 팀원의 작업까지 개인 저장소로 옮기지 않기 위해 링크로 연결한다.
+> 5인 팀 프로젝트이며 전체 코드는 팀 조직 저장소에 있다.
+> 팀원의 작업까지 옮기지 않도록, **내가 대부분을 쓴 파일 3개만** [`my-code/`](my-code/)에 그대로 옮겼다(실행은 팀 저장소에서).
 >
 > - **[2026AigroomHackerton/backend](https://github.com/2026AigroomHackerton/backend)** — FastAPI · SQLite
 > - **[2026AigroomHackerton/frontend](https://github.com/2026AigroomHackerton/frontend)** — React · TypeScript
@@ -111,6 +113,8 @@ MVP에서는 실제 인증을 생략하되, 구조는 확장 가능하도록 남
 ```
 
 [팀 저장소](https://github.com/2026AigroomHackerton/backend/commits?author=kdg-04)에 남은 커밋 8개다.
+최종본 기준으로 내가 쓴 줄은 `archive.py` 94% · `document_repository.py` 82% · `document_service.py` 69%이고,
+이 세 파일은 [`my-code/`](my-code/)에서 바로 읽을 수 있다(함수별로 누가 썼는지도 정리).
 
 | 커밋 | 내용 |
 |---|---|
@@ -149,12 +153,15 @@ HWP는 바이너리 구조라 수정·저장이 어려워 확장 기능으로 �
 ```
 2026-Goorm-AI-Hackathon/
 ├── README.md              이 문서
+├── my-code/               내가 대부분을 쓴 백엔드 파일 3개 (팀 저장소 최종본 그대로)
+│   ├── README.md          출처 · 내 줄 비율 · 함수별 작성자
+│   └── app/               routers/archive.py · repositories/document_repository.py · services/document_service.py
 └── docs/
     ├── service-spec.pdf   서비스 명세서 (12p) — 문제 정의 · API 17개 · DB 12테이블 · 권한 설계
     └── team-roles.pdf     협업 역할분담 가이드 (11p) — 파트별 담당 범위와 수정 금지 규칙
 ```
 
-소스 코드는 이 저장소에 없다. 위 **팀 조직 저장소 링크**를 참고한다.
+전체 소스 코드와 실행 방법은 위 **팀 조직 저장소**에 있다.
 
 ---
 
