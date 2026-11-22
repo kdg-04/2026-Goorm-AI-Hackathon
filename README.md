@@ -8,6 +8,16 @@
 > 저장된 개인정보와 이전 답변을 바탕으로 문서를 빠르게 작성하도록 돕는 서비스.
 > 2026 구름(goorm) AI 해커톤 **최우수상 수상작**.
 
+<p align="center">
+  <a href="docs/service-spec.pdf"><b>서비스 명세서</b></a>
+  &nbsp;·&nbsp;
+  <a href="docs/team-roles.pdf">역할분담 가이드</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/2026AigroomHackerton/backend">팀 백엔드 저장소</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/2026AigroomHackerton/frontend">팀 프론트엔드 저장소</a>
+</p>
+
 | | |
 |---|---|
 | **프로젝트명** | AI 기반 한글 문서 작성 비서 |
@@ -161,5 +171,4 @@ HWP는 바이너리 구조라 수정·저장이 어려워 확장 기능으로 �
 ## 7. 참고
 
 - 문서에 등장하는 개인정보 항목은 모두 예시이며, 해커톤에서는 실제 개인정보 대신 마스킹된 샘플 데이터를 사용했다
-- 팀원 이름은 기획 문서에도 역할로만 표기되어 있다
 - 이 저장소는 개인 포트폴리오 목적으로 공개한다
